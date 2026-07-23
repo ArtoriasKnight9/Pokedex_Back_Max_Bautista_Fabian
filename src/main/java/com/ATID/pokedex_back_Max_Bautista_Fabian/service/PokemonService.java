@@ -3,7 +3,8 @@ package com.ATID.pokedex_back_Max_Bautista_Fabian.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.ATID.pokedex_back_Max_Bautista_Fabian.entity.pokemon;
+
+import com.ATID.pokedex_back_Max_Bautista_Fabian.entities.pokemon;
 import com.ATID.pokedex_back_Max_Bautista_Fabian.repository.PokemonRepository;
 import java.util.List;
 import java.util.UUID;

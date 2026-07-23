@@ -1,4 +1,4 @@
-package com.ATID.pokedex_back_Max_Bautista_Fabian.entity;
+package com.ATID.pokedex_back_Max_Bautista_Fabian.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

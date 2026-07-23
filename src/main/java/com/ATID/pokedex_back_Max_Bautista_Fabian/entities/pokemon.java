@@ -1,4 +1,4 @@
-package com.ATID.pokedex_back_Max_Bautista_Fabian.entity;
+package com.ATID.pokedex_back_Max_Bautista_Fabian.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -6,13 +6,13 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.JoinColumn;
 import java.time.LocalDate;
 import java.util.UUID;
 
-import javax.annotation.processing.Generated;
 
 @Entity
 @Table(name = "pokemons")
@@ -31,11 +31,10 @@ public class pokemon {
     @Column(name = "type_pokemon", nullable = false)
     private String type_pokemon;
 
-    @NotBlank(message = "El nivel del Pokémon es obligatorio")
+    @Min(value = 1, message = "El nivel del Pokémon es obligatorio y debe ser mayor a 0")
     @Column(name = "level_pokemon", nullable = false)
     private int level_pokemon;
 
-    @NotBlank(message = "La fecha de captura del Pokémon es obligatoria")
     @Column(name = "capture_date")
     private LocalDate captureDate;
 
