@@ -38,7 +38,7 @@ INSERT INTO pokemons (uuid_pokemon, name_pokemon, type_pokemon, level_pokemon, c
 (gen_random_uuid(), 'Staryu', 'Agua', 20, '2025-02-14', '22222222-2222-2222-2222-222222222222'),
 (gen_random_uuid(), 'Starmie', 'Agua/Psíquico', 30, '2025-03-18', '22222222-2222-2222-2222-222222222222'),
 (gen_random_uuid(), 'Psyduck', 'Agua', 15, ' 2025-04-01', '22222222-2222-2222-2222-222222222222'),
-(gen_random_uuid(), 'Gyuarados', 'Agua/Volador', 9, '2025-06-10', '22222222-2222-2222-2222-222222222222'),
+(gen_random_uuid(), 'Gyarados', 'Agua/Volador', 9, '2025-06-10', '22222222-2222-2222-2222-222222222222'),
 (gen_random_uuid(), 'Goldeen', 'Agua', 22, '2025-07-22', '22222222-2222-2222-2222-222222222222');
 
 -- Pokémon de David
